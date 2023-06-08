@@ -1,0 +1,32 @@
+.container {
+    width: 200px;
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .item {
+    padding: 5px;
+    background-color: #f9f9f9;
+    margin-bottom: 5px;
+    cursor: grab;
+  }
+  
+  .item:active {
+    cursor: grabbing;
+  }
+  
+  .container.dragover {
+    border-color: blue;
+  }
+  
+  .success-message {
+    color: green;
+  }
+  
+  .reset-button {
+    margin-top: 10px;
+  }
+  
